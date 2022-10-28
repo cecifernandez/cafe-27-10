@@ -1,0 +1,70 @@
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}
+
+.cerrar-menu {
+    padding: 2px;
+    display: none;
+}
+
+.nav-items {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    opacity: 60%;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    width: 10rem;
+    line-height: 2rem;
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+
+/* .nav-container {
+    display: flex;
+    height: 70px;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    background-color: rgba(255, 230, 167, 0.9);
+    padding: 2.5rem;
+    border-radius: 0.5rem;
+    color: #6f1d1b;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 700;
+    gap: 2rem;
+    transition: 0.4s;
+}
+
+.nav-items.is-active{
+    right: 0;
+}
+
+.nav-items li:hover {
+    color: #6f1d1b;
+    border-bottom: 3px solid #6f1d1b;
+} */

@@ -1,0 +1,17 @@
+@media screen and (min-width: 480px) {
+    .nav-items {
+      color: blue;
+    }
+  }
+  
+  @media screen and (min-width: 786px) {
+    .nav-items {
+      color: red;
+    }
+  }
+  
+  @media screen and (min-width: 1350px) {
+    .nav-items {
+      color: green;
+    }
+  }
